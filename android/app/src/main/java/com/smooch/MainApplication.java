@@ -22,7 +22,7 @@ public class MainApplication extends Application implements ReactApplication {
 
     // Add this line to initialize your app with Smooch
     // Copy-paste your app token here from the Settings tab in the Smooch dashboard
-    Smooch.init(this, "buyfepbz4gbr2bc3m2uz8jatt");
+    Smooch.init(this, "ae1r41frfdb7fvdsuefbcycwv");
   }
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {

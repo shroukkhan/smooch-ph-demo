@@ -17,11 +17,14 @@ class Splash extends Component {
 
     constructor(props) {
         super(props);
+        Smooch.setFirstName("Saga");
+        Smooch.setLastName("Chat");
+        Smooch.setEmail("support@softverk.co.th");
         Smooch.show();
     }
 
     render() {
-        let icon = <Image source={require('../images/concierge.png')} style={styles.conciergeIcon}></Image>;
+        let icon = <Image source={require('../images/chat.png')} style={styles.conciergeIcon}></Image>;
         return (
             <View style={styles.imageContainer}>
                 <Image source={require('../images/splash.png')} style={styles.image}>

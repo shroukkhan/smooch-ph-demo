@@ -41,7 +41,7 @@
   [self.window makeKeyAndVisible];
   // Initialize Smooch - these instructions are also available on [app.smooch.io](https://app.smooch.io)
   [Smooch initWithSettings:
-   [SKTSettings settingsWithAppToken:@"buyfepbz4gbr2bc3m2uz8jatt"]];
+   [SKTSettings settingsWithAppToken:@"ae1r41frfdb7fvdsuefbcycwv"]];
   return YES;
 }
 
